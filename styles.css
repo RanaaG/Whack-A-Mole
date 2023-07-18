@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    background-color: #588157;
+
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 80%;
+    height: 600px;
+    background-color:darkcyan;
+    display:grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.item{
+    background-color:#3a5a40;
+    background-image: url("hoole.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    
+}
+img{
+    height: 70%;
+    width:90%;
+    
+}
+@media(min-width:554px){
+    .main{
+        width: 65%;
+    height: 600px;
+    }
+}
+@media(min-width:697px){
+    .main{
+        width: 55%;
+    height: 600px;
+    }
+}
+@media(min-width:817px){
+    .main{
+        width: 45%;
+    height: 600px;
+    }
+}
+@media(min-width:970px){
+    .main{
+        width: 35%;
+    height: 600px;
+    }
+}
